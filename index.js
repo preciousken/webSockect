@@ -4,7 +4,7 @@ const http = require('http');
 const path = require('path')
 const server = http.createServer(app);
   
-// WebSocket importing for use
+// WebSocket importing for use..
 const { Server } = require("socket.io");
 const io = new Server(server);
 
